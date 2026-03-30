@@ -63,7 +63,7 @@ const data = res.data
 setKpi(data.kpi)
 
 setChartData(
-data.chart.map(item=>({
+data.chart.map((item: { label: any; completed: any })=>({
 day:item.label,
 completed:item.completed
 }))
