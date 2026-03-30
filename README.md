@@ -64,3 +64,17 @@ cd habit-tracker
 cd backend
 npm install
 npm run dev
+
+3️⃣ Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+Key Functionalities
+
+1. Daily Habit Progress: Track completion status of habits each day
+2. Weekly Completion: Monitor weekly consistency
+3. Monthly Activity: Visualize long-term engagement
+4. Completion Ratio: Measure success rate of habits
+5. Analytics Dashboard: Gain insights into user behavior
+6. CRUD Operations: Add, edit, delete habits
