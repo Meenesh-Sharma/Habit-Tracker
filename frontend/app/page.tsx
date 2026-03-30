@@ -7,7 +7,7 @@ export default function HomePage() {
 
 return (
 
-<main className="bg-gradient-to-b from-white via-orange-50 to-white">
+<main className="bg-linear-to-b from-white via-orange-50 to-white">
 
 {/* HERO */}
 
