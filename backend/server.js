@@ -15,7 +15,7 @@ const app = express()
 // CORS CONFIGURATION
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    origin: process.env.FRONTEND_URL ,
     credentials: true
   })
 )
@@ -38,7 +38,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 // SERVER
-const PORT = process.env.PORT || 3579
+const PORT = process.env.PORT 
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
